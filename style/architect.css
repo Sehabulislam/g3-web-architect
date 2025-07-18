@@ -89,11 +89,14 @@ main > section{
     margin-left:130px ;
     max-width: 530px;
 }
+#future{
+    color: #FF900E;
+}
 #quick{
     font-weight: 500;
 }
 /* future -- enjoy style */
-.future{
+.futures{
     gap: 100px;
 }
 .future-card .future-title{
@@ -107,7 +110,19 @@ main > section{
    border-radius:10px ;
     box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
     margin-bottom: 20px;
+}
+#expreience-badge{
+    padding: 45px;
+    font-size: 1.5rem;
+    font-weight: 500px;
+    margin-left: -70px;
+    margin-top: -110px;
 } 
+#expreience-year{
+    font-size: 4rem;
+    font-weight: 700;
+
+}
    /* some fact */
    .facts-container{
     display: grid;
@@ -154,11 +169,20 @@ main > section{
 .sponsor-companies img{
     filter: grayscale(100%);
 }
+footer{
+    padding: 150px 240px 240px;
+    text-align: center;
+}
+.footer-title{
+    background-color: rgba(255, 244, 231, 1);
+    padding: 35px;
+}
 /* responsive media quary */
 @media screen and (max-width:576px) {
     .navbar, 
     .nav-links,
-     .teams{
+     .teams
+     .futures{
        flex-direction: column;
     }
     .team-img-container, 
@@ -180,10 +204,17 @@ main > section{
         gap: 40px;
         justify-items: center;
     }
+    .future-img img{
+        width: 100%;
+    }
+    #expreience-badge{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
 }
 /* medium size device */
 @media screen and (min-width:576px) and (max-width:992px) {
-    .teams{
+    .teams, .futures{
         flex-direction: column;
     }
     .our-future{
@@ -193,5 +224,9 @@ main > section{
         grid-template-columns: repeat(2, 1fr);
         gap: 50px;
         justify-items: center;
+    }
+    #expreience-badge{
+        margin-top: 20px;
+        margin-left: 20px;
     }
 }
