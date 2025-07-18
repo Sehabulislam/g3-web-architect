@@ -73,7 +73,7 @@ main > section{
 .bannar-image{
     width: 100%;
 }
-/* team and future releted style */
+/* quick and future  style */
 .teams{
     align-items: center;
 }
@@ -82,20 +82,32 @@ main > section{
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
 }
+.section-title{
+    font-size: 45px;
+}
 .our-future{
     margin-left:130px ;
     max-width: 530px;
 }
-.future-title{
-    font-size: 2.8em;
-    font-weight: 700;
-}
 #quick{
     font-weight: 500;
 }
-#future{
-    color:rgba(255, 144, 14, 1.00);
+/* future -- enjoy style */
+.future{
+    gap: 100px;
 }
+.future-card .future-title{
+    font-weight: 600px;
+    font-size: 1.25rem;
+    margin: 0px;
+    margin-bottom: 0px;
+}
+.future-card {
+   padding: 30px;
+   border-radius:10px ;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+} 
    /* some fact */
    .facts-container{
     display: grid;
